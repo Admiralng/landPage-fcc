@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+  }
+  
+  :root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #0652dd;
+    --secondary-color: #000000;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: var(--secondary-color);
+  } 
+  
+  header {
+      background-color: #eeeeee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1rem;
+      box-shadow: 2px 3px 2px #f1f1f1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      font-family: 'Baskervville', serif;
+    }
+  
+  .nav-link {
+      margin-left: 2rem;
+    }
+  
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    form {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      background-color: #1b1b32;
+      color: #f5f6f7;
+      font-family: "Raleway", sans-serif;
+      padding-bottom: 130px; 
+      padding-top: 130px;
+      text-align: center;
+    }
+      #email {
+      margin: 10px 0 0 0;
+      width: 60%;
+      min-height: 3em;
+      border-radius: 10px;
+      font-size: 1rem;
+      background-color: #eeeeee;
+    }
+      #submit {
+      margin: 10px 0 0 0;
+      width: 30%;
+      min-height: 2em;
+      border-radius: 5px;
+      background-color: #f1c40f;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    #submit:hover {
+      background-color: yellow;
+    }
+  
+    h1 {
+      font-size: 35px;
+      padding: 25px;
+    }
+  
+    label {
+      padding: 2em;
+      text-align: center;
+      display: block;
+      margin: 0.5rem 0;
+  }
+  
+  article {
+    background-color: #3b3b4f;
+    color: #eeeeee;
+    padding: 100px;
+    font-family: 'Baskervville', serif;
+  }
+  article > img {
+    text-align: right;
+  }
+  
+  
