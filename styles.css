@@ -102,14 +102,35 @@
       margin: 0.5rem 0;
   }
   
-  article {
+  .article {
     background-color: #3b3b4f;
     color: #eeeeee;
-    padding: 100px;
+    padding: 20%;
     font-family: 'Baskervville', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
   }
-  article > img {
-    text-align: right;
+  .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   
+  
+  footer {
+      background-color: #9cacc6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1rem;
+      box-shadow: 2px 3px 2px #f1f1f1;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      font-family: 'Baskervville', serif;
+  }
