@@ -1,5 +1,5 @@
 # Hosted Pages of the Repo:
-https://admiralng.github.io/CarouselSlideshow-/
+https://admiralng.github.io/landPage-fcc/
 
 # Week 7 Task.
 Comprising week 7 tasks.
