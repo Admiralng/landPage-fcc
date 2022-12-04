@@ -17,7 +17,10 @@
   
   html {
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflo: hidden;
+  }
+  body {
+    overflo: hidden;
   }
   
   ul li {
@@ -163,7 +166,7 @@
   
   TODO: 
   /* TODO Ferris wheel */
-  .ferris {
+  /* .ferris {
     height: 100%;
   }
   
@@ -269,7 +272,7 @@
     100% {
       transform: rotate(-360deg);
     }
-  }
+  } */
 /* TODO: It ended here, css Animation */
   
   footer {
