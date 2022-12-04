@@ -19,9 +19,6 @@
     scroll-behavior: smooth;
     overflo: hidden;
   }
-  body {
-    overflo: hidden;
-  }
   
   ul li {
     list-style-type: none;
